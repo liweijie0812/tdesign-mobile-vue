@@ -256,6 +256,8 @@ jobs:
       
       - name: delete comment
         uses: actions/github-script@v7
+        env:
+          BOT_COMMENT_ID: ${{ steps.create-comment.outputs.comment_id }}
         with:
           script: |
             await github.rest.issues.deleteComment({
@@ -263,9 +265,10 @@ jobs:
               repo: context.repo.repo,
               comment_id: context.payload.comment.id
             }) 
-              
-            await github.rest.issues.deleteComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              comment_id: ${{ steps.create-comment.outputs.comment_id }}
-            })         
+            if (process.env.BOT_COMMENT_ID) {
+              await github.rest.issues.deleteComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: process.env.BOT_COMMENT_ID
+              })
+            } 
