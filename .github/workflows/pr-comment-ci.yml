@@ -267,5 +267,5 @@ jobs:
             await github.rest.issues.deleteComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              comment_id: {{ steps.create-comment.outputs.comment_id }}
+              comment_id: ${{ steps.create-comment.outputs.comment_id }}
             })         
