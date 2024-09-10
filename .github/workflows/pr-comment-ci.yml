@@ -167,9 +167,9 @@ jobs:
         with:
           script: |
             const { data: comment } = await github.rest.issues.createComment({
-              issue_number: context.payload.inputs.prNumber,
+              issue_number: context.issue.number,
               owner: context.repo.owner,
-              repo: 'core',
+              repo: context.repo.repo,
               body: `⏳ CI正在更新快照中...`
             })
             return comment.id
