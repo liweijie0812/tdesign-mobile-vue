@@ -41,7 +41,7 @@ export default {
     type: Boolean,
     default: undefined,
   },
-  /** 自定义选中图标和非选中图标。使用 Array 时表示：[选中态图标，非选中态图标]。使用 String 时，值为 circle 表示填充圆形图标、值为 line 表示描边型图标、值为 rectangle 表示填充矩形图标。 */
+  /** 自定义选中图标和非选中图标。使用 Array 时表示：[选中态图标，非选中态图标]。使用 String 时，值为 circle 表示填充圆形图标、值为 line 表示描边型图标、值为 rectangle 表示填充矩形图标 */
   icon: {
     type: [String, Boolean, Array] as PropType<TdCheckboxProps['icon']>,
     default: 'circle',
@@ -76,8 +76,11 @@ export default {
       return ['left', 'right'].includes(val);
     },
   },
-  /** 【暂不支持】只读状态 */
-  readonly: Boolean,
+  /** 只读状态 */
+  readonly: {
+    type: Boolean,
+    default: undefined,
+  },
   /** 多选框的值 */
   value: {
     type: [String, Number, Boolean] as PropType<TdCheckboxProps['value']>,

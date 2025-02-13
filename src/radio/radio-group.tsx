@@ -1,4 +1,5 @@
 import { provide, defineComponent, computed } from 'vue';
+import { get as lodashGet } from 'lodash-es';
 import { useDefault } from '../shared';
 import props from '../radio/radio-group-props';
 import { RadioOption, RadioOptionObj, RadioValue, TdRadioGroupProps } from '../radio/type';
@@ -35,11 +36,11 @@ export default defineComponent({
         return opt;
       });
     });
-    const handleRadioChange = (val: RadioValue, e: Event) => {
+    const handleRadioChange = (val: RadioValue, context: { e: Event; name?: string }) => {
       if (props.allowUncheck && val === groupValue.value) {
-        setGroupValue('', { e });
+        setGroupValue('', context);
       } else {
-        setGroupValue(val, { e });
+        setGroupValue(val, context);
       }
     };
 
@@ -54,10 +55,10 @@ export default defineComponent({
               <TRadio
                 name={props.name}
                 icon={props.icon}
-                checked={groupValue.value === opt[keys.value?.value ?? 'value']}
-                disabled={opt?.disabled ?? props.disabled}
-                value={opt[keys.value?.value ?? 'value']}
-                label={opt[keys.value?.label ?? 'label']}
+                checked={groupValue.value === lodashGet(opt, keys.value?.value ?? 'value')}
+                disabled={lodashGet(opt, keys.value?.disabled ?? 'disabled', props.disabled)}
+                value={lodashGet(opt, keys.value?.value ?? 'value')}
+                label={lodashGet(opt, keys.value?.label ?? 'label')}
                 placement={props.placement}
               />
             ))}

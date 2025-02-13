@@ -3,7 +3,7 @@ import dayjs, { Dayjs, UnitType } from 'dayjs';
 import weekday from 'dayjs/plugin/weekday';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import objectSupport from 'dayjs/plugin/objectSupport';
-import isArray from 'lodash/isArray';
+import { isArray } from 'lodash-es';
 
 import config from '../config';
 import DateTimePickerProps from './props';
@@ -11,23 +11,23 @@ import { getMeaningColumn } from './shared';
 import { useVModel } from '../shared';
 import { Picker as TPicker } from '../picker';
 import { PickerColumn, PickerColumnItem, PickerValue, PickerContext } from '../picker/type';
-import { useConfig } from '../config-provider/useConfig';
+import { usePrefixClass, useConfig } from '../hooks/useClass';
 
 dayjs.extend(weekday);
 dayjs.extend(customParseFormat);
 dayjs.extend(objectSupport);
 
 const { prefix } = config;
-const name = `${prefix}-date-time-picker`;
 
 export default defineComponent({
-  name,
+  name: `${prefix}-date-time-picker`,
   components: { TPicker },
   props: DateTimePickerProps,
   emits: ['change', 'cancel', 'confirm', 'pick', 'update:modelValue', 'update:value'],
   setup(props) {
+    const dateTimePickerClass = usePrefixClass('date-time-picker');
     const { globalConfig } = useConfig('dateTimePicker');
-    const className = computed(() => [`${name}`]);
+    const className = computed(() => [`${dateTimePickerClass.value}`]);
     const { value } = toRefs(props);
     const [innerValue, setDateTimePickerValue] = useVModel(
       value,

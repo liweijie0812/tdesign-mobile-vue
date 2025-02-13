@@ -8,7 +8,7 @@ exports[`Cell > Cell groupVue demo works fine 1`] = `
   >
     
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -17,14 +17,14 @@ exports[`Cell > Cell groupVue demo works fine 1`] = `
           class="t-cell__left-icon"
         >
           <svg
-            class="t-icon t-icon-lock-on"
+            class="t-icon t-icon-app"
             fill="none"
             height="1em"
             viewBox="0 0 24 24"
             width="1em"
           >
             <path
-              d="M12 3a4 4 0 014 4v3H8V7a4 4 0 014-4zm6 7V7A6 6 0 006 7v3H3.5v12h17V10H18zM5.5 12h13v8h-13v-8zM9 15h6v2H9v-2z"
+              d="M17.5 3.5a3 3 0 100 6 3 3 0 000-6zm-5 3a5 5 0 1110 0 5 5 0 01-10 0zM2 2h9v9H2V2zm2 2v5h5V4H4zm-2 9h9v9H2v-9zm2 2v5h5v-5H4zm9-2h9v9h-9v-9zm7 2h-5v5h5v-5z"
               fill="currentColor"
             />
           </svg>
@@ -34,13 +34,17 @@ exports[`Cell > Cell groupVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <!---->
       </div>
       <!---->
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -61,7 +65,7 @@ exports[`Cell > Cell groupVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -87,13 +91,17 @@ exports[`Cell > Cell groupVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <!---->
       </div>
       <!---->
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -114,7 +122,7 @@ exports[`Cell > Cell groupVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -140,13 +148,17 @@ exports[`Cell > Cell groupVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <!---->
       </div>
       <!---->
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -219,7 +231,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
         >
           
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -230,13 +242,17 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <!---->
             </div>
             <!---->
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -257,7 +273,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -268,17 +284,21 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <span
-                class="t-cell--required"
+              <div
+                class="t-cell__title-text"
               >
-                 *
-              </span>
+                单行标题
+                <span
+                  class="t-cell--required"
+                >
+                   *
+                </span>
+              </div>
               <!---->
             </div>
             <!---->
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -299,7 +319,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -310,8 +330,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <!---->
             </div>
             <div
@@ -335,7 +359,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
               
             </div>
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -356,7 +380,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -367,8 +391,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <!---->
             </div>
             <div
@@ -393,7 +421,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <!---->
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -404,8 +432,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <!---->
             </div>
             <div
@@ -414,7 +446,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
               辅助信息
             </div>
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -435,7 +467,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -444,14 +476,14 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
                 class="t-cell__left-icon"
               >
                 <svg
-                  class="t-icon t-icon-lock-on"
+                  class="t-icon t-icon-app"
                   fill="none"
                   height="1em"
                   viewBox="0 0 24 24"
                   width="1em"
                 >
                   <path
-                    d="M12 3a4 4 0 014 4v3H8V7a4 4 0 014-4zm6 7V7A6 6 0 006 7v3H3.5v12h17V10H18zM5.5 12h13v8h-13v-8zM9 15h6v2H9v-2z"
+                    d="M17.5 3.5a3 3 0 100 6 3 3 0 000-6zm-5 3a5 5 0 1110 0 5 5 0 01-10 0zM2 2h9v9H2V2zm2 2v5h5V4H4zm-2 9h9v9H2v-9zm2 2v5h5v-5H4zm9-2h9v9h-9v-9zm7 2h-5v5h5v-5z"
                     fill="currentColor"
                   />
                 </svg>
@@ -461,13 +493,17 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <!---->
             </div>
             <!---->
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -520,7 +556,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
         >
           
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -531,8 +567,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <div
                 class="t-cell__description"
               >
@@ -541,7 +581,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
             <!---->
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -562,7 +602,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -573,12 +613,16 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <span
-                class="t-cell--required"
+              <div
+                class="t-cell__title-text"
               >
-                 *
-              </span>
+                单行标题
+                <span
+                  class="t-cell--required"
+                >
+                   *
+                </span>
+              </div>
               <div
                 class="t-cell__description"
               >
@@ -587,7 +631,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
             <!---->
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -608,7 +652,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -619,8 +663,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <div
                 class="t-cell__description"
               >
@@ -648,7 +696,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
               
             </div>
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -669,7 +717,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -680,8 +728,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <div
                 class="t-cell__description"
               >
@@ -710,7 +762,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <!---->
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -721,8 +773,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <div
                 class="t-cell__description"
               >
@@ -735,7 +791,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
               辅助信息
             </div>
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -756,7 +812,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -766,14 +822,14 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
               >
                 
                 <svg
-                  class="t-icon t-icon-lock-on"
+                  class="t-icon t-icon-app"
                   fill="none"
                   height="1em"
                   viewBox="0 0 24 24"
                   width="1em"
                 >
                   <path
-                    d="M12 3a4 4 0 014 4v3H8V7a4 4 0 014-4zm6 7V7A6 6 0 006 7v3H3.5v12h17V10H18zM5.5 12h13v8h-13v-8zM9 15h6v2H9v-2z"
+                    d="M17.5 3.5a3 3 0 100 6 3 3 0 000-6zm-5 3a5 5 0 1110 0 5 5 0 01-10 0zM2 2h9v9H2V2zm2 2v5h5V4H4zm-2 9h9v9H2v-9zm2 2v5h5v-5H4zm9-2h9v9h-9v-9zm7 2h-5v5h5v-5z"
                     fill="currentColor"
                   />
                 </svg>
@@ -784,8 +840,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <div
                 class="t-cell__description"
               >
@@ -794,7 +854,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
             <!---->
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -815,7 +875,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -826,8 +886,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <div
                 class="t-cell__description"
               >
@@ -838,7 +902,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <!---->
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -849,8 +913,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              多行高度不定，长文本自动换行，该选项的描述是一段很长的内容
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                多行高度不定，长文本自动换行，该选项的描述是一段很长的内容
+                <!---->
+              </div>
               <div
                 class="t-cell__description"
               >
@@ -861,7 +929,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <!---->
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -943,8 +1011,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              多行带头像
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <div
                 class="t-cell__description"
               >
@@ -953,7 +1025,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
             <!---->
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -974,7 +1046,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -988,8 +1060,12 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              多行带图片
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <div
                 class="t-cell__description"
               >
@@ -1036,7 +1112,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
         >
           
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -1045,14 +1121,14 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
                 class="t-cell__left-icon"
               >
                 <svg
-                  class="t-icon t-icon-lock-on"
+                  class="t-icon t-icon-app"
                   fill="none"
                   height="1em"
                   viewBox="0 0 24 24"
                   width="1em"
                 >
                   <path
-                    d="M12 3a4 4 0 014 4v3H8V7a4 4 0 014-4zm6 7V7A6 6 0 006 7v3H3.5v12h17V10H18zM5.5 12h13v8h-13v-8zM9 15h6v2H9v-2z"
+                    d="M17.5 3.5a3 3 0 100 6 3 3 0 000-6zm-5 3a5 5 0 1110 0 5 5 0 01-10 0zM2 2h9v9H2V2zm2 2v5h5V4H4zm-2 9h9v9H2v-9zm2 2v5h5v-5H4zm9-2h9v9h-9v-9zm7 2h-5v5h5v-5z"
                     fill="currentColor"
                   />
                 </svg>
@@ -1062,13 +1138,17 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <!---->
             </div>
             <!---->
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -1089,7 +1169,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -1115,13 +1195,17 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <!---->
             </div>
             <!---->
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -1142,7 +1226,7 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             </div>
           </div>
           <div
-            class="t-cell t-cell--middle"
+            class="t-cell"
           >
             <div
               class="t-cell__left"
@@ -1168,13 +1252,17 @@ exports[`Cell > Cell mobileVue demo works fine 1`] = `
             <div
               class="t-cell__title"
             >
-              单行标题
-              <!---->
+              <div
+                class="t-cell__title-text"
+              >
+                单行标题
+                <!---->
+              </div>
               <!---->
             </div>
             <!---->
             <div
-              class="t-cell__right"
+              class="t-cell__right t-cell__right--middle"
             >
               <div
                 class="t-cell__right-icon"
@@ -1211,7 +1299,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
   >
     
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1222,8 +1310,12 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <div
           class="t-cell__description"
         >
@@ -1232,7 +1324,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       </div>
       <!---->
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -1253,7 +1345,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1264,12 +1356,16 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <span
-          class="t-cell--required"
+        <div
+          class="t-cell__title-text"
         >
-           *
-        </span>
+          单行标题
+          <span
+            class="t-cell--required"
+          >
+             *
+          </span>
+        </div>
         <div
           class="t-cell__description"
         >
@@ -1278,7 +1374,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       </div>
       <!---->
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -1299,7 +1395,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1310,8 +1406,12 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <div
           class="t-cell__description"
         >
@@ -1339,7 +1439,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
         
       </div>
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -1360,7 +1460,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1371,8 +1471,12 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <div
           class="t-cell__description"
         >
@@ -1401,7 +1505,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <!---->
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1412,8 +1516,12 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <div
           class="t-cell__description"
         >
@@ -1426,7 +1534,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
         辅助信息
       </div>
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -1447,7 +1555,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1457,14 +1565,14 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
         >
           
           <svg
-            class="t-icon t-icon-lock-on"
+            class="t-icon t-icon-app"
             fill="none"
             height="1em"
             viewBox="0 0 24 24"
             width="1em"
           >
             <path
-              d="M12 3a4 4 0 014 4v3H8V7a4 4 0 014-4zm6 7V7A6 6 0 006 7v3H3.5v12h17V10H18zM5.5 12h13v8h-13v-8zM9 15h6v2H9v-2z"
+              d="M17.5 3.5a3 3 0 100 6 3 3 0 000-6zm-5 3a5 5 0 1110 0 5 5 0 01-10 0zM2 2h9v9H2V2zm2 2v5h5V4H4zm-2 9h9v9H2v-9zm2 2v5h5v-5H4zm9-2h9v9h-9v-9zm7 2h-5v5h5v-5z"
               fill="currentColor"
             />
           </svg>
@@ -1475,8 +1583,12 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <div
           class="t-cell__description"
         >
@@ -1485,7 +1597,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       </div>
       <!---->
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -1506,7 +1618,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1517,8 +1629,12 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <div
           class="t-cell__description"
         >
@@ -1529,7 +1645,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <!---->
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1540,8 +1656,12 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        多行高度不定，长文本自动换行，该选项的描述是一段很长的内容
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          多行高度不定，长文本自动换行，该选项的描述是一段很长的内容
+          <!---->
+        </div>
         <div
           class="t-cell__description"
         >
@@ -1552,7 +1672,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <!---->
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1634,8 +1754,12 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        多行带头像
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <div
           class="t-cell__description"
         >
@@ -1644,7 +1768,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       </div>
       <!---->
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -1665,7 +1789,7 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1679,8 +1803,12 @@ exports[`Cell > Cell multipleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        多行带图片
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <div
           class="t-cell__description"
         >
@@ -1703,7 +1831,7 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
   >
     
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1714,13 +1842,17 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <!---->
       </div>
       <!---->
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -1741,7 +1873,7 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1752,17 +1884,21 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <span
-          class="t-cell--required"
+        <div
+          class="t-cell__title-text"
         >
-           *
-        </span>
+          单行标题
+          <span
+            class="t-cell--required"
+          >
+             *
+          </span>
+        </div>
         <!---->
       </div>
       <!---->
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -1783,7 +1919,7 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1794,8 +1930,12 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <!---->
       </div>
       <div
@@ -1819,7 +1959,7 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
         
       </div>
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -1840,7 +1980,7 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1851,8 +1991,12 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <!---->
       </div>
       <div
@@ -1877,7 +2021,7 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       <!---->
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1888,8 +2032,12 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <!---->
       </div>
       <div
@@ -1898,7 +2046,7 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
         辅助信息
       </div>
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
@@ -1919,7 +2067,7 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       </div>
     </div>
     <div
-      class="t-cell t-cell--middle"
+      class="t-cell"
     >
       <div
         class="t-cell__left"
@@ -1928,14 +2076,14 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
           class="t-cell__left-icon"
         >
           <svg
-            class="t-icon t-icon-lock-on"
+            class="t-icon t-icon-app"
             fill="none"
             height="1em"
             viewBox="0 0 24 24"
             width="1em"
           >
             <path
-              d="M12 3a4 4 0 014 4v3H8V7a4 4 0 014-4zm6 7V7A6 6 0 006 7v3H3.5v12h17V10H18zM5.5 12h13v8h-13v-8zM9 15h6v2H9v-2z"
+              d="M17.5 3.5a3 3 0 100 6 3 3 0 000-6zm-5 3a5 5 0 1110 0 5 5 0 01-10 0zM2 2h9v9H2V2zm2 2v5h5V4H4zm-2 9h9v9H2v-9zm2 2v5h5v-5H4zm9-2h9v9h-9v-9zm7 2h-5v5h5v-5z"
               fill="currentColor"
             />
           </svg>
@@ -1945,13 +2093,17 @@ exports[`Cell > Cell singleVue demo works fine 1`] = `
       <div
         class="t-cell__title"
       >
-        单行标题
-        <!---->
+        <div
+          class="t-cell__title-text"
+        >
+          单行标题
+          <!---->
+        </div>
         <!---->
       </div>
       <!---->
       <div
-        class="t-cell__right"
+        class="t-cell__right t-cell__right--middle"
       >
         <div
           class="t-cell__right-icon"
